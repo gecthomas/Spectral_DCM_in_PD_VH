@@ -1,5 +1,5 @@
 # Spectral DCM analysis in PD with VH
-## This code will reproduce the group-level results from: <placeholder>
+## This code will reproduce the group-level results from: https://academic.oup.com/braincomms/article/5/1/fcac329/6895901
 ### DCM = dynamic causal model(ling)
 ### PD = Parkinson's disease 
 ### VH = visual hallucinations
