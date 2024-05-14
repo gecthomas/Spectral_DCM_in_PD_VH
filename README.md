@@ -1,6 +1,6 @@
 # Spectral DCM analysis in PD with VH (for SPM May 2024 practical session)
 ## This code contains a subset of the participants in the following paper: https://academic.oup.com/braincomms/article/5/1/fcac329/6895901
-## It also contains simplified first level analyis and should NOT be expected to reproduce the results from the paper, it is for demonstration purposes only.
+## It also contains simplified analyis and should NOT be expected to reproduce the results from the paper, it is for educational purposes only.
 ### DCM = dynamic causal model(ling)
 ### PD = Parkinson's disease 
 ### VH = visual hallucinations
