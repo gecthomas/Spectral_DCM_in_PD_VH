@@ -70,7 +70,7 @@ a_reg_fam{1} = [1 1 1 1 1 1 1 1;
                 1 1 0 0 0 1 0 0;
                 1 1 0 0 0 0 1 0;
                 1 1 0 0 0 0 0 1];
-% V1
+% MTh
 a_reg_fam{2} = [1 0 1 0 0 0 0 0;
                 0 1 1 0 0 0 0 0;
                 1 1 1 1 1 1 1 1;
@@ -80,7 +80,7 @@ a_reg_fam{2} = [1 0 1 0 0 0 0 0;
                 0 0 1 0 0 0 1 0;
                 0 0 1 0 0 0 0 1];
 
-% MTh
+% V1
 a_reg_fam{3} = [1 0 0 1 0 0 0 0;
                 0 1 0 1 0 0 0 0;
                 0 0 1 1 0 0 0 0;
@@ -113,7 +113,7 @@ a_reg_fam{5} = [1 0 0 0 0 0 1 1;
 % All
 a_reg_fam{6} = ones(8);
 
-a_reg_fam_names = {'LGN','V1','MTh','Hippo','PFC','all'};
+a_reg_fam_names = {'LGN','MTh','V1','Hippo','PFC','all'};
 
 %% make a connectivity matrix for each of these combos
 % -------------------------------------------------------------------------
