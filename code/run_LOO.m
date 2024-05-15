@@ -20,7 +20,7 @@ M = struct();
 % ’all’, the between-subject variability for each DCM connection will be 
 % individually estimated.
 M.Q      = 'all';
-M.maxit  = 512;
+M.maxit  = 128;
 
 %% run LOO for VH vs non-VH using largest PEB parameter
 
