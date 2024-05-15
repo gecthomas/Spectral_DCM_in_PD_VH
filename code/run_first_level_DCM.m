@@ -155,10 +155,10 @@ if tf
     
     % estimate GCM with default priors
     GCM_est_all = spm_dcm_fit(GCM_spec,use_parfor);
-
+    
     % save (has to be called 'GCM' to work with the GUI as well)
     GCM = GCM_est_all;
-    save(['../analyses/' name '_GCM_' apfx '_VH.mat'],'GCM_est_all');
+    save(['../analyses/' name '_GCM_' apfx '_VH.mat'],'GCM');
 end
 
 %% delete temp DCM files to keep directory clean
