@@ -1,11 +1,11 @@
-# Spectral DCM analysis in PD with VH (for SPM May 2024 practical session)
+# Spectral DCM analysis in PD with VH (for SPM practical session)
 ## This code contains a subset of the participants in the following paper: https://academic.oup.com/braincomms/article/5/1/fcac329/6895901
 ## The code will also perform a simplified analysis and should NOT be expected to reproduce the results from the paper, it is for educational purposes only.
 ### DCM = dynamic causal model(ling)
 ### PD = Parkinson's disease 
 ### VH = visual hallucinations
 
-In order to run the code in this directory, the dataset should be downloaded from the URL **[HERE](https://zenodo.org/records/11191180)** and unzipped into the master directory.
+In order to run the code in this directory, the dataset should be downloaded from the URL **[HERE](https://zenodo.org/records/11191180)** and unzipped into the master directory. These data are available open access.
 
 Repo contents (after unzipping)
   * **/code/**
