@@ -42,4 +42,12 @@ Repo contents (after unzipping)
       * **SPM.mat**
   * **/analyses/**
     * **dmx_VH.mat** - design matrix containing subject sex, age, and VH status
+
+**Order of scripts**
+1. edit_SPM_paths.m
+2. batch_extract_VOI_timeseries.m
+3. run_first_level_DCM.m
+4. run_PEB.m
+5. run_family_analysis.m
+6. run_LOO.m
     
