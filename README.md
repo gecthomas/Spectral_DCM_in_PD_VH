@@ -5,7 +5,7 @@
 ### PD = Parkinson's disease 
 ### VH = visual hallucinations
 
-In order to run the code in this directory, the dataset should be downloaded from the URL **[HERE](https://zenodo.org/records/11191180)** and unzipped into the master directory. These data are available open access.
+In order to run the code in this directory, the dataset should be downloaded from the URL **[HERE](https://zenodo.org/records/20313807)** and unzipped into the master directory. These data are available open access.
 
 Repo contents (after unzipping)
   * **/code/**
@@ -22,7 +22,7 @@ Repo contents (after unzipping)
       * ...
       * **rsfmri_ica-aroma0104.nii**
     * ...
-    * **sub-053/**
+    * **sub-034/**
       * **rsfmri_ica-aroma0000.nii**
       * ...
       * **rsfmri_ica-aroma0104.nii**
@@ -34,7 +34,7 @@ Repo contents (after unzipping)
       * **RPV.nii**
       * **SPM.mat**
     * ...
-    * **sub-053/**
+    * **sub-034/**
       * **beta_0001.nii**
       * **mask.nii**
       * **ResMS.nii**
@@ -50,4 +50,3 @@ Repo contents (after unzipping)
 4. run_PEB.m
 5. run_family_analysis.m
 6. run_LOO.m
-    
