@@ -14,8 +14,13 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function edit_SPM_paths(batchDir)
+function edit_SPM_paths(batchDir, spmPath)
 
+if exist(spmPath, "dir")
+    addpath(spmPath)
+else
+    error('>> invalid spm path')
+end
 subjects = importdata('VH_non_VH_list.txt');
 
 for ii = 1:length(subjects)
